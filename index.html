@@ -27,6 +27,13 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
+  
+  <!-- Glide JS: CAROUSEL -->
+  <script src="https://cdn.jsdelivr.net/npm/@glidejs/glide"></script>
+  
+  <!-- Glide JS CSS -->
+  <link type="text/css" href="/assets/css/glide.core.css" rel="stylesheet">
+
   <!-- =======================================================
   * Template Name: BizLand
   * Updated: Jan 29 2024 with Bootstrap v5.3.2
@@ -57,7 +64,7 @@
   <!-- ======= Header ======= -->
   <header id="header" class="d-flex align-items-center">
     <div class="container d-flex align-items-center justify-content-between">
-      <h1 class="logo"><a href="index.html">M3 Park<span>.</span></a></h1>
+      <h1 class="logo"><a href="index.html">M3 PARK<span>.</span></a></h1>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <a href="index.html" class="logo"><img src="assets/img/logo.png" alt=""></a>-->
 
@@ -104,7 +111,7 @@
           <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
             <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
               <div class="icon"><i class="bi bi-textarea"></i></div>
-              <h4 class="title"><a href="">Desde 1,930m2  a 15,000m2</a></h4>
+              <h4 class="title"><a href="">Desde 1,930 m<sup>2</sup>  a 15,000 m<sup>2</sup></a></h4>
               <p class="description">Espacios para cualquier tamaño de operación</p>
             </div>
           </div>
@@ -133,19 +140,20 @@
     <!-- ======= About Section ======= -->
     <section id="about" class="about section-bg">
       <div class="container" data-aos="fade-up">
-
-        <div class="section-title">
-          <h2>Proyecto</h2>
-          <h3>Ubicación estratégica <span>para la logística empresarial</span></h3>
-          <p>M3 Park Apodaca es un complejo industrial que se destacará por ser uno de los parques más modernos de la región, con una oferta de naves en venta en un entorno en donde prevalecen los espacios en renta.  49,530m2  de nave en terreno de 78,000 m2  </p>
+        <div class="col-12">
+          <div class="section-title text-left">
+            <h2>Proyecto</h2>
+            <h3>Ubicación estratégica <span>para la logística empresarial</span></h3>
+            <p class="text-left">M3 Park Apodaca es un complejo industrial que se destacará por ser uno de los parques más modernos de la región, con una oferta de naves en venta en un entorno en donde prevalecen los espacios en renta.  49,530 m<sup>2</sup>  de nave en terreno de 78,000 m<sup>2</sup>  </p>
+          </div>
         </div>
 
         <div class="row">
           <div class="col-lg-6" data-aos="fade-right" data-aos-delay="100">
-            <img src="assets/img/about.jpg" class="img-fluid" alt="">
+            <img src="assets/img/about2.jpg" class="img-fluid" alt="">
           </div>
           <div class="col-lg-6 pt-4 pt-lg-0 content d-flex flex-column justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <h3>Metrópolis siempre colabora con los mejor aliados estratégicos para el desarrollo de sus proyectos, en M3 Park Apodaca, el diseño arquitectónico está a cargo de una firma con amplia experiencia y reconocimiento en el sector inmobiliario industrial como lo es Grupo Bilden.</h3>
+            <p>Metrópolis siempre colabora con los mejor aliados estratégicos para el desarrollo de sus proyectos, en M3 Park Apodaca, el diseño arquitectónico está a cargo de una firma con amplia experiencia y reconocimiento en el sector inmobiliario industrial como lo es Grupo Bilden.</p>
             <ul>
               <li>
                 <i class=""><img src="./assets/img/bilden-logo.svg" class="img-fluid" width="36"></i>
@@ -192,10 +200,11 @@
             <div class="icon-box">
               <div class="icon"><i class="bi bi-bricks"></i></div>
               <h4><a href="">Construcción</a></h4>
-              <p><ul class="text-left">
-                <li><b>Altura:</b> Altura libre mínima interior en nave de 30 Pies (9.14 m) del nivel de piso terminado.</li>
-                  <li><b>Cubierta:</b> Lámina metálica KR18 calibre 24., Aislante de fibra de vidrio reforzada de 3” (7.5 cm) de espesor, con 5% de iluminación natural.</li>
-                  <li><b>Estructura:</b> Estructura metálica a base de columnas, vigas tipo joists para recibir cubierta.</li>
+              <p>
+                <b>Altura:</b> Altura libre mínima interior en nave de 30 Pies (9.14 m) del nivel de piso terminado.<br/>
+                  <b>Cubierta:</b> Lámina metálica engargolada KR18 calibre 24, aislante de fibra de vidrio reforzada de 3” de espesor, con 5% de iluminación natural.
+                  <br/>
+                  <b>Estructura:</b> Estructura metálica a base de columnas, vigas tipo joists para recibir cubierta.
               </ul></p>
             </div>
           </div>
@@ -204,8 +213,7 @@
             <div class="icon-box">
               <div class="icon"><i class="bi bi-truck"></i></div>
               <h4><a href="">Andenes</a></h4>
-              <p>Rampa de acceso para montacargas y vehículos con puerta seccional de 12’ x 14’ (3.66 m x 4.27 m).
-Una rampa niveladora de andén de operación mecánica manual de 30,000 lbs de capacidad, de 6’ x 8’ (1.82 m x 2.44 m)</p>
+              <p>Un andén a nivel plataforma de trailers de 1.20 metros, equipado con rampa niveladora de 30,000 libras con cortina de acero de 6´x 8´y preparación del espacio para un segundo andén. Una rampa de acceso a la nave con cortina de acero de 12´x 14.</p>
             </div>
           </div>
 
@@ -257,6 +265,48 @@ Una rampa niveladora de andén de operación mecánica manual de 30,000 lbs de c
 
       </div>
     </section><!-- End Portfolio Section -->
+    <section id="galeria" class="gallery portfolio">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-12">
+            <div class="section-title">
+              <h2>Galería</h2>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="glide">
+              <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                  <li class="glide__slide">
+                    <img src="./assets/img/carousel/bodegas-monterrey-aeropuerto.jpg" class="img-fluid">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets/img/carousel/bodegas-monterrey.jpg" class="img-fluid">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets/img/carousel/bodegas-naves-industriales-apodaca.jpg" class="img-fluid">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets/img/carousel/inmuebles-industriales.jpg" class="img-fluid">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets/img/carousel/m3-park-apodaca.jpg" class="img-fluid">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets/img/carousel/naves-industriales-mty.jpg" class="img-fluid">
+                  </li>
+                  <li class="glide__slide">
+                    <img src="./assets/img/carousel/preventa-naves-industriales-monterrey.jpg" class="img-fluid">
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
 
     <!-- ======= Contact Section ======= -->
@@ -380,6 +430,28 @@ Una rampa niveladora de andén de operación mecánica manual de 30,000 lbs de c
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+
+
+  <!-- Glide Gallery initialize -->
+    <script>
+      new Glide('.glide', {
+        type: 'carousel',
+        autoplay: 3000,
+        hoverpause: true,
+        startAt: 0,
+        perView: 2,
+          breakpoints: {
+            600:{
+              perView:1
+            },
+            1024:{
+              perView:2
+            }
+          }
+      }).mount()
+    </script>
 
 </body>
 
