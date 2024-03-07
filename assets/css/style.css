@@ -458,48 +458,21 @@ h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
-#hero .container {
+#hero {
   width: 100%;
-  height: 100%;
-  /* background: url("../img/naves-industriales-apodaca-preventa.jpg") top left; */
+  height: 75vh;
+  background: url("../img/preventa-naves-industriales.jpg") top left;
   background-size: cover;
   position: relative;
-  z-index: 1
 }
 
-.slider{
-  position: absolute;
-  width: 100vw;
-  top: -5px;
-  height: 75vh;
-  z-index:-1
-}
-
-.slider .img-slider{
-  width: 100vw;
-  max-height: 75vh;
-}
-
-@media  screen and (max-width:768px) {
-  .slider .img-slider{
-  width: auto;
-  max-height: 75vh;
-  }
-
-  #hero:before {
-  content: "";
-  background: rgba(255, 255, 255, 0.75);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
-}
+#hero .text-yellow{
+  color:#ebea31;
 }
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.456);
+  background: rgba(255, 255, 255, 0);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -516,12 +489,13 @@ h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #222222;
+  color: #ffffff;
   font-family: "Poppins", sans-serif;
+  text-shadow: 5px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
 #hero h1 span {
-  color: #004071;
+  color: #ffffff;
 }
 
 #hero h2 {
@@ -582,9 +556,9 @@ h6 {
 }
 
 @media (max-width: 768px) {
-  /* #hero {
+  #hero {
     height: 100vh;
-  } */
+  }
 
   #hero h1 {
     font-size: 28px;
