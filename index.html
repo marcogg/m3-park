@@ -84,6 +84,21 @@
 
   <!-- ======= Hero Section ======= -->
   <section id="hero" class="d-flex align-items-center">
+    <div class="slider">
+      <div class="glide__track" data-glide-el="track">
+        <ul class="glide__slides">
+          <li class="glide__slide">
+               <img src="./assets/img/slider/slider1.jpg" class="img-slider">
+          </li>
+          <li class="glide__slide">
+               <img src="./assets/img/slider/slider2.jpg" class="img-slider">
+          </li>
+          <li class="glide__slide">
+               <img src="./assets/img/slider/slider3.jpg" class="img-slider">
+          </li>
+        </ul>
+      </div>
+    </div>
     <div class="container" data-aos="zoom-out" data-aos-delay="100">
       <img src="./assets/img/logo-m3-park.png" class="img-fluid" width="200">
       <h1 class="logo"><a href="index.html">Naves industriales AAA<span> en preventa</span></a></h1>
@@ -432,7 +447,16 @@
   <script src="assets/js/main.js"></script>
 
 
-
+  <!-- Glide Header Carousel -->
+  <script>
+  new Glide('.slider',{
+    type: 'slider',
+        autoplay: 3000,
+        hoverpause: true,
+        startAt: 0,
+        perView: 1,
+  }).mount()
+  </script>
 
   <!-- Glide Gallery initialize -->
     <script>
