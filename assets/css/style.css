@@ -460,8 +460,8 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  height: 75vh;
-  background: url("../img/preventa-naves-industriales.jpg") top left;
+  height: 60vh;
+  background: url("../img/preventa-naves-industriales.jpg") bottom center;
   background-size: cover;
   position: relative;
 }
@@ -586,6 +586,17 @@ h6 {
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
+.bg-photo{
+  background-image: url(../img/carousel/bodegas-monterrey-aeropuerto.jpg);
+  height: 100%;
+  min-height: 550px;
+  background-size: cover;
+}
+
+.img-square{
+  aspect-ratio: 1/1;
+}
+
 section {
   padding: 60px 0;
   overflow: hidden;
@@ -1641,6 +1652,10 @@ section {
   color: #444444;
   font-size: 14px;
   background: #f1f6fe;
+}
+
+#footer .contact-title{
+  font-size: clamp(16pt, 1rem, 24pt);
 }
 
 #footer .footer-newsletter {
